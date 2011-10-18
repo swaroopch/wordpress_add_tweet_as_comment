@@ -136,13 +136,6 @@ function import_tweet($post_id, $url) {
 
 function save_replies($post_id, array $replies) {
     foreach($replies as $reply) {
-        $account = (object) array(
-            'user' => (object) array(
-                'id' => $reply->from_user_id,
-                'screen_name' => $reply->from_user,
-            )
-        );
-
         // TODO Replace t.co urls with entities/urls/expanded_url using entities/urls/indices in the JSON
         $commentdata = array(
             'comment_post_ID'      => $post_id,
