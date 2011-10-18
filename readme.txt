@@ -3,6 +3,7 @@ Contributors: swaroopch
 Tags: twitter, comments
 Requires at least: 3.2
 Tested up to: 3.2.1
+Stable tag: trunk
 
 Add any random tweet as a comment to a post, to gather replies in one place.
 
