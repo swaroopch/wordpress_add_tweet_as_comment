@@ -85,7 +85,7 @@ function add_tweet_as_comment_request_handler()
             $url      = $_POST['tweet_url'];
             import_tweet($post_id, $url);
 
-            wp_redirect(admin_url("edit-comments.php"));
+            wp_redirect(admin_url("edit-comments.php?comment_status=moderated"));
             exit;
             //wp_redirect(admin_url("options-general.php?page=add_tweet_as_comment.php&saved_tweet_as_comment=1"));
             //exit;
