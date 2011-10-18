@@ -3,7 +3,7 @@
 Plugin Name: Add Tweet as Comment
 Plugin URI: https://github.com/swaroopch/wordpress_add_tweet_as_comment/
 Description: Add any random tweet as a comment to your blog post, to save tweet replies along with your blog comments.
-Version: 0.1
+Version: 1
 Author: Swaroop C H
 Author URI: http://www.swaroopch.com
 License: GPL2
@@ -49,7 +49,7 @@ function show_tweet_as_comment_form() {
 <p>
     <label for="tweet_url">Tweet URL:</label>
     <br />
-    <input id="tweet_url" name="tweet_url" type="text"></input>
+    <input id="tweet_url" name="tweet_url" type="text" size="100"></input>
 </p>
 
 <p>
