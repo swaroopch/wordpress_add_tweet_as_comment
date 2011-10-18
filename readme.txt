@@ -14,6 +14,10 @@ Add any random tweet as a comment to a post, to gather replies in one place.
 1. Go to `Settings > Add Tweet as Comment`, paste any tweet URL and press Submit.
 1. That's it!
 
+== Official Source ==
+
+The version at http://wordpress.org/extend/plugins/add-tweet-as-comment/ is from http://plugins.svn.wordpress.org/add-tweet-as-comment/ which will be a copy of my canonical GitHub repository.
+
 == Roots ==
 
 Extracted from http://wordpress.org/extend/plugins/social/
