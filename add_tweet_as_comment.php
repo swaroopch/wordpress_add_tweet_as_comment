@@ -139,7 +139,7 @@ function save_replies($post_id, array $replies) {
         // TODO Replace t.co urls with entities/urls/expanded_url using entities/urls/indices in the JSON
         $commentdata = array(
             'comment_post_ID'      => $post_id,
-            'comment_type'         => 'twitter',
+            'comment_type'         => 'comment',
             'comment_author'       => $reply->from_user,
             'comment_author_email' => 'twitter.' . $reply->id . '@example.com',
             'comment_author_url'   => $reply->tweet_url,
